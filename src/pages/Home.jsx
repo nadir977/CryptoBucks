@@ -8,7 +8,7 @@ const Home = () => {
   const { showGraph} = useContext(CryptoContext); 
 
   return (
-    <section className="w-full max-w-7xl mx-auto px-4 sm:px-6 md:px-8 h-full flex flex-col mb-24 relative">
+    <section className="w-full max-w-7xl  mx-auto px-4 sm:px-6 md:px-8 h-full flex flex-col mb-24 relative">
       <Filters />
       <TableComponent /> 
       {showGraph&& <CryptoDetails />}
